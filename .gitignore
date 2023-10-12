@@ -8,7 +8,7 @@ data/*.csv
 venv/
 
 # ipnyb checkpoints
-.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
 
 # Byte-compiled, cached, optimized files
 *.pyc
