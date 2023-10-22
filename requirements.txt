@@ -1,5 +1,11 @@
 pandas
-numpy
-seaborn
+sqlalchemy
 python-dotenv
+pymysql
+plotly_express
+matplotlib
+seaborn
+scikit-learn
+catboost
+
 -e .

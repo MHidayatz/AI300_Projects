@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Insurance Charges</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+    <div>
+        <h1>Predict Insurance Charges</h1>
+        <form method="POST">
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" value="30" min="0" max="100"
+                    pattern="^(?:1[01][0-9]|0?[1-9][0-9]?)$" 
+                    title="Please enter a valid age between 0 and 120."><br><br>
+
+            <label for="sex">Sex:</label><br>
+                <select name="sex" id="sex">
+                <option value=""></option>
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+            </select><br><br>
+
+             <!-- TODO 1 - Fill in smoker select/dropdown field here, similar to Age -->
+            <label for="bmi">BMI:</label><br>
+            <input type="text" id="bmi" name="bmi" value="30" min="0" max="40"
+                    pattern="^(?:1[01][0-9]|0?[1-9][0-9]?)$" 
+                    title="Please enter a valid age between 0 and 40."><br><br>
+
+            <label for="children">Children:</label><br>
+            <select name="children" id="children">
+                <option value=""></option>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 or more</option>
+            </select><br><br>
+
+            <label for="smoker">Smoker:</label><br>
+            <!-- TODO 2 - Fill in smoker select/dropdown field here, similar to Sex -->
+                <select name="smoker" id="smoker">
+                <option value=""></option>
+                <option value="yes">yes</option>
+                <option value="no" selected>no</option>
+            </select><br><br>
+
+            <label for="region">Region:</label><br>
+            <select name="region" id="region">
+                <option value=""></option>
+                <option value="southwest" selected>Southwest</option>
+                <option value="southeast">Southeast</option>
+                <option value="northwest">Northwest</option>
+                <option value="northeast">Northeast</option>
+            </select><br><br>
+            
+            <input type="submit" value="Predict">
+        </form>
+
+        <!-- TODO 3: Add h2 element to display model prediction  -->
+        <!--         (Use Jinja templating with if condition)    -->
+        {% if prediction is defined %}
+            <h2>Model Prediction: {{ prediction }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
