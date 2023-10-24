@@ -21,8 +21,11 @@ CatBoostClassifier
 
 ## Offline AUC metric of chosen final model
 
- - CatBoostClassifier
- - AUC: 0.8949770108206311
+```
+ CatBoostClassifier
+ AUC: 0.8949770108206311
+
+```
 
 
 ## About This Repo
