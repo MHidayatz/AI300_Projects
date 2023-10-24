@@ -8,6 +8,7 @@ Hidayat
 
 ## Details on chosen final model and model parameters
 
+```
 CatBoostClassifier
 
 {'learning_rate': 0.1,
@@ -15,11 +16,14 @@ CatBoostClassifier
  'iterations': 200,
  'depth': 5,
  'border_count': 32}
+```
+
 
 ## Offline AUC metric of chosen final model
 
-AUC: 0.8949770108206311
-CatBoostClassifier
+ - CatBoostClassifier
+ - AUC: 0.8949770108206311
+
 
 ## About This Repo
 
