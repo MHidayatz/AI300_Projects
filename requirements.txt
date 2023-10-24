@@ -7,5 +7,5 @@ matplotlib
 seaborn
 scikit-learn
 catboost
-
+flask
 -e .
