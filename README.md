@@ -34,7 +34,8 @@ Hee Poh Shin
 ## Website URL of deployed Flask web application 
 
 ```
-Work in progress.
+Dockerhub URL: https://hub.docker.com/r/mhidayatz/capstone-team4-flask-app
+Deployed app URL: http://ec2-18-143-75-96.ap-southeast-1.compute.amazonaws.com/
 ```
 
 ## Details on chosen final model and model parameters
