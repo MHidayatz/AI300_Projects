@@ -12,7 +12,7 @@ Hee Poh Shin
 ```
 ├── data
 │   └── filename_edited.xlsx
-│   └── filename.xlsx
+│   └── filename.csv
 ├── model
 │   └── best_clf.pkl
 ├── notebooks
@@ -65,4 +65,3 @@ CatBoostClassifier
 
 ## Sample Data
 - The sample data for churn prediction can be located in the file named data-SampleDataForPrediction.xlsx, under the "Example Sheet" tab.
-
