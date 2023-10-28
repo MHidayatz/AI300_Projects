@@ -45,10 +45,10 @@ def format_model_inputs(input_dict):
         le = LabelEncoder()
         df[column] = le.fit_transform(df[column])
     
-    # Scale the numerical features
-    numerical_features = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
-    scaler = StandardScaler()
-    df[numerical_features] = scaler.fit_transform(df[numerical_features])
+    # # Scale the numerical features
+    # numerical_features = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
+    # scaler = StandardScaler()
+    # df[numerical_features] = scaler.fit_transform(df[numerical_features])
     
     # Convert the DataFrame back to a list
     input_dict = df.values.tolist()[0]

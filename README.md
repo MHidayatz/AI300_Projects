@@ -1,5 +1,14 @@
 ## HEICODERS AI300 Capstone Project ##
 
+├── app.py
+├── model.py
+├── input_processing.py
+├── model
+│   └── best_clf.pkl
+├── templates
+│   └── index.html
+
+
 - Team Number & names of team members
 ```
 Team 4
@@ -16,10 +25,12 @@ Hee Poh Shin
 CatBoostClassifier
 
 {'learning_rate': 0.1,
- 'l2_leaf_reg': 10.0,
- 'iterations': 200,
- 'depth': 5,
- 'border_count': 32}
+ 'l2_leaf_reg': 0.01,
+ 'iterations': 400,
+ 'depth': 9,
+ 'border_count': 64}
+
+
 ```
 
 
@@ -27,7 +38,8 @@ CatBoostClassifier
 
 ```
  CatBoostClassifier
- AUC: 0.8949770108206311
+ AUC: 0.9058097286413764
+ Accuracy: 0.8971783835485414
 
 ```
 
