@@ -2,8 +2,8 @@
 
 - Team Number & names of team members
 ```
-Md. Hidayat
-Poh Shin
+Muhammad Hidayat Bin Abdul Wahid
+Hee Poh Shin
 ```
 
 - Website URL of deployed Flask web application 
