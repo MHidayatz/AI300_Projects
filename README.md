@@ -66,4 +66,4 @@ CatBoostClassifier
 
 
 ## Sample Data
-- The sample data for churn prediction can be located in the file named data-SampleDataForPrediction.xlsx, under the "Example Sheet" tab.
+- The sample data for churn prediction can be located in the file named data-SampleDataForPrediction.csv, under the "Example Sheet" tab.
