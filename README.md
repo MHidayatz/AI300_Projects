@@ -63,3 +63,6 @@ CatBoostClassifier
 - Command to start Flask app: `python src/app.py`
 
 
+## Sample Data
+- The sample data for churn prediction can be located in the file named data-SampleDataForPrediction.xlsx, under the "Example Sheet" tab.
+
