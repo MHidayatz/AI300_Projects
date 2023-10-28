@@ -33,7 +33,7 @@ Hee Poh Shin
 
 ## Website URL of deployed Flask web application 
 
-<a href="https://hub.docker.com/r/mhidayatz/capstone-team4-flask-app" target="_blank">Dockerhub URL</a>
+<a target="_blank" rel="noopener" href="https://hub.docker.com/r/mhidayatz/capstone-team4-flask-app" >Dockerhub URL</a>
 
 [Dockerhub URL](https://hub.docker.com/r/mhidayatz/capstone-team4-flask-app)
 
