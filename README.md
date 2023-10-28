@@ -11,8 +11,8 @@ Hee Poh Shin
 
 ```
 ├── data
-│   └── filename_edited.xlsx
 │   └── filename.csv
+│   └── SampleDataForPrediction.csv
 ├── model
 │   └── best_clf.pkl
 ├── notebooks
@@ -43,9 +43,7 @@ CatBoostClassifier
  'depth': 9,
  'border_count': 64}
 
-
 ```
-
 
 ## Offline AUC metric of chosen final model
 
@@ -55,7 +53,6 @@ CatBoostClassifier
  Accuracy: 0.8971783835485414
 
 ```
-
 
 ## About This Repo
 

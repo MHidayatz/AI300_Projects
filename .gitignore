@@ -1,8 +1,8 @@
-# Env Secrets
+# Env Secret Keys
 .env
 
 # Data files
-# data/*.csv
+ data/*.xlsx
 
 # Virtualenv files
 venv/
