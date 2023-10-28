@@ -14,7 +14,6 @@
         <form method="POST">
             <label for="contractType">Contract Type:</label><br>
             <select name="contractType" id="contractType">
-                <option value=""></option>
                 <option value="One Year" selected>One Year</option>
                 <option value="Month-to-Month">Month-to-Month</option>
                 <option value="Two Year">Two Year</option>
@@ -22,7 +21,6 @@
 
             <label for="internetType">Internet Type:</label><br>
             <select name="internetType" id="internetType">
-                <option value=""></option>
                 <option value="Fiber Optic" selected>Fiber Optic</option>
                 <option value="Cable">Cable</option>
                 <option value="DSL">DSL</option>
@@ -30,7 +28,6 @@
 
             <label for="paymentMethod">Payment Method:</label><br>
             <select name="paymentMethod" id="paymentMethod">
-                <option value=""></option>
                 <option value="Credit Card" selected>Credit Card</option>
                 <option value="Bank Withdrawal">Bank Withdrawal</option>
                 <option value="Mailed Check">Mailed Check</option>
@@ -38,28 +35,24 @@
 
             <label for="streamMusic">Stream Music:</label><br>
             <select name="streamMusic" id="streamMusic">
-                <option value=""></option>
                 <option value="yes">yes</option>
                 <option value="no" selected>no</option>
             </select><br><br>
 
             <label for="paperlessBilling">Paperless Billing:</label><br>
             <select name="paperlessBilling" id="paperlessBilling">
-                <option value=""></option>
                 <option value="yes">yes</option>
                 <option value="no" selected>no</option>
             </select><br><br>
 
             <label for="married">Married:</label><br>
             <select name="married" id="married">
-                <option value=""></option>
                 <option value="yes">yes</option>
                 <option value="no" selected>no</option>
             </select><br><br>
 
             <label for="premiumTechSupport">Premium Tech Support:</label><br>
             <select name="premiumTechSupport" id="premiumTechSupport">
-                <option value=""></option>
                 <option value="yes">yes</option>
                 <option value="no" selected>no</option>
             </select><br><br>
@@ -85,16 +78,15 @@
             <label for="totalLongDistanceFee">Total Long Distance Fee:</label><br>
             <input type="number" id="totalLongDistanceFee" name="totalLongDistanceFee" value="0" step="0.01"><br><br>
 
-            <label for="avgLongDistanceFee">Avg Long Distance Fee Monthly:</label><br>
-            <input type="number" id="avgLongDistanceFee" name="avgLongDistanceFee" value="0" step="0.01"><br><br>
-
             <!-- Button for predict -->
             <input type="submit" value="Predict">
         </form>
 
         <!-- If there is a prediction, show it -->
         {% if prediction is defined %}
-            <h2>Model Prediction: {{ prediction }}</h2>
+            <h2>Model Prediction: {% if prediction == 1 %}Customer will churn{% else %}Customer will not churn{% endif %}</h2>
+
+            <!-- <h2>Model Prediction: {{ prediction }}</h2> -->
         {% endif %}
     </div>
 </body>
