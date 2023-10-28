@@ -1,6 +1,13 @@
 ## HEICODERS AI300 Capstone Project ##
 
-- Folder Structure
+## Team Number & names of team members
+```
+Team 4
+Muhammad Hidayat Bin Abdul Wahid
+Hee Poh Shin
+```
+
+## Folder Structure
 
 ```
 ├── data
@@ -23,16 +30,7 @@
 
 ```
 
-
-- Team Number & names of team members
-```
-Team 4
-Muhammad Hidayat Bin Abdul Wahid
-Hee Poh Shin
-```
-
 - Website URL of deployed Flask web application 
-
 
 ## Details on chosen final model and model parameters
 
