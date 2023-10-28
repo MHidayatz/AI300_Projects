@@ -25,6 +25,7 @@ Hee Poh Shin
 │   └── app.py
 │   └── input_processing.py
 │   └── model.py
+├── .gitignore
 ├── Readme.md
 ├── requirements.txt
 
