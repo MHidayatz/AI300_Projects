@@ -1,12 +1,15 @@
 ## HEICODERS AI300 Capstone Project ##
 
-├── app.py
-├── model.py
-├── input_processing.py
-├── model
-│   └── best_clf.pkl
-├── templates
-│   └── index.html
+- root_directory (e.g., sep23-team04)
+    - folder_name1
+        - subfolder_name1
+            - file1
+            - file2
+        - subfolder_name2
+    - folder_name2
+        - file3
+    - file4
+
 
 
 - Team Number & names of team members
