@@ -1,15 +1,27 @@
 ## HEICODERS AI300 Capstone Project ##
 
-- root_directory (e.g., sep23-team04)
-    - folder_name1
-        - subfolder_name1
-            - file1
-            - file2
-        - subfolder_name2
-    - folder_name2
-        - file3
-    - file4
+- Folder Structure
 
+'''
+├── data
+│   └── filename_edited.xlsx
+│   └── filename.xlsx
+├── model
+│   └── best_clf.pkl
+├── notebooks
+│   └── WorkingNotebook.ipynb
+├── src
+│   └── static
+│      └── style.css
+│   └── templates
+│      └── index.html
+│   └── app.py
+│   └── input_processing.py
+│   └── model.py
+├── Readme.md
+├── requirements.txt
+
+'''
 
 
 - Team Number & names of team members
