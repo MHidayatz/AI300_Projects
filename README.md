@@ -2,7 +2,7 @@
 
 - Folder Structure
 
-'''
+```
 ├── data
 │   └── filename_edited.xlsx
 │   └── filename.xlsx
@@ -21,7 +21,7 @@
 ├── Readme.md
 ├── requirements.txt
 
-'''
+```
 
 
 - Team Number & names of team members
