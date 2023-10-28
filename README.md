@@ -1,7 +1,10 @@
 ## HEICODERS AI300 Capstone Project ##
 
 - Team Number & names of team members
-Hidayat
+```
+Md. Hidayat
+Poh Shin
+```
 
 - Website URL of deployed Flask web application 
 
