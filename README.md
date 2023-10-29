@@ -35,7 +35,7 @@ Hee Poh Shin
 
 [Dockerhub URL](https://hub.docker.com/r/mhidayatz/capstone-team4-flask-app)
 
-[Deployed Web App URL](http://ec2-18-139-0-23.ap-southeast-1.compute.amazonaws.com/)
+[Deployed Web App URL](http://ec2-18-139-0-23.ap-southeast-1.compute.amazonaws.com/) - This app is designed to be responsive on both mobile & browser.
 
 ## Details on chosen final model and model parameters
 
