@@ -1,15 +1,21 @@
 
 /* Global styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* sets default font to open sans, sans-serif as backup */
     background: #adb3ed;
     font-size: 16px; /* Increased the base font size */
 }
 
 input, select {
+    /* Reference: https://stackoverflow.com/a/6080482 */
     font-family: inherit;
     font-size: inherit;
 }
+
+/*  2. Simple CSS formatting for HTML form
+    Code adapted from https://www.w3schools.com/css/tryit.asp?filename=trycss_forms
+    Tutorial: https://www.w3schools.com/css/css_form.asp
+*/
 
 input[type=text], input[type=number], select {
     width: 100%;
