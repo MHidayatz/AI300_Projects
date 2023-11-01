@@ -33,7 +33,7 @@ Hee Poh Shin
 
 ## Website URL of deployed Flask web application 
 
-[Dockerhub URL](https://hub.docker.com/r/mhidayatz/capstone-team4-flask-app)
+[Dockerhub URL](https://hub.docker.com/r/mhidayatz/capstone-team4-flask-app) - Pull the latest tag, 1.2 
 
 [Deployed Web App URL](http://ec2-18-139-0-23.ap-southeast-1.compute.amazonaws.com/) - This app is optimized for both mobile devices and web browsers experience.
 
