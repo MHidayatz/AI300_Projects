@@ -1,10 +1,15 @@
 
-/* Global styles */
+/* Global styles Fancy background here https://uigradients.com/#Mirage*/
 body {
     font-family: 'Open Sans', sans-serif; /* sets default font to open sans, sans-serif as backup */
-    background: #adb3ed;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 16px; /* Increased the base font size */
 }
+
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 input, select {
     /* Reference: https://stackoverflow.com/a/6080482 */
@@ -27,9 +32,14 @@ input[type=text], input[type=number], select {
     box-sizing: border-box;
 }
 
+/* Fancy submit button here: https://uigradients.com/#Reaqua */
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background: #799F0C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ACBB78, #799F0C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ACBB78, #799F0C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
     color: white;
     padding: 0.5em 1em;
     margin: 0.5em 0;
