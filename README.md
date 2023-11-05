@@ -1,12 +1,5 @@
 ## HEICODERS AI300 Capstone Project ##
 
-## Team Number & names of team members
-```
-SEPT23 - TEAM 04
-Muhammad Hidayat Bin Abdul Wahid
-Hee Poh Shin
-```
-
 ## Folder Structure.
 
 ```
