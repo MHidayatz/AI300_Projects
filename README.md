@@ -7,7 +7,7 @@ Muhammad Hidayat Bin Abdul Wahid
 Hee Poh Shin
 ```
 
-## Folder Structure
+## Folder Structure.
 
 ```
 ├── data
